@@ -1,4 +1,6 @@
-﻿namespace WindowsFormsApp1
+﻿using System;
+
+namespace WindowsFormsApp1
 {
     partial class Formplaygame
     {
@@ -136,6 +138,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.videoplayer)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
+        }
+
+        private void btgunspin_Click(object sender, EventArgs e)
+        {
 
         }
 
